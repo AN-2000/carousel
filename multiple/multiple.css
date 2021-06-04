@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  overflow: hidden;
+}
+
+.cards {
+  flex-shrink: 0;
+  height: 20rem;
+  width: 20%;
+}
+
+button#pre,
+button#next {
+  position: absolute;
+}
+
+button {
+  height: 4rem;
+  width: 4rem;
+  border: none;
+  font-size: 2rem;
+  z-index: 3;
+  border-radius: 50%;
+}
+
+button#pre,
+button#next {
+  top: 9rem;
+}
+
+button#pre {
+  left: 1rem;
+}
+
+button#next {
+  right: 1rem;
+}
+
+.inner-card {
+  color: white;
+  font-size: 8rem;
+  text-align: center;
+  padding-top: 2rem;
+  margin: auto;
+  margin-top: 2rem;
+  height: 80%;
+  width: 80%;
+  background-color: #e74c3c;
+}
